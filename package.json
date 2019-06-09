@@ -51,7 +51,7 @@
   "dependencies": {
     "@babel/plugin-transform-react-constant-elements": "7.2.0",
     "@babel/plugin-transform-react-inline-elements": "7.2.0",
-    "@corpetty/test-graph-embed": "https://api.observablehq.com/@corpetty/test-graph-embed.tgz?v=3",
+    "@corpetty/status-sticker-market-blog-embed": "https://api.observablehq.com/@corpetty/status-sticker-market-blog-embed.tgz?v=3",
     "@observablehq/runtime": "4",
     "babel-plugin-transform-react-pure-class-to-function": "1.0.1",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
