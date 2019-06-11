@@ -3,7 +3,6 @@ import { hot } from 'react-hot-loader/root';
 import { Runtime, Inspector } from '@observablehq/runtime';
 import notebook from '@corpetty/status-sticker-market-blog-embed';
 // import Latex from 'react-latex';
-import style from './App.css';
 
 class App extends Component {
   componentDidMount() {
@@ -18,20 +17,20 @@ class App extends Component {
       if (name === 'viewof userChurnRate') {
         return new Inspector(this.userChurnRateRef.current);
       }
-      if (name === 'viewof userbar') {
-        return new Inspector(this.userbarRef.current);
-      }
       if (name === 'viewof discountRate') {
         return new Inspector(this.discountRateRef.current);
       }
-      if (name === 'viewof percentUserBuysPack') {
-        return new Inspector(this.percentUserBuysPackRef.current);
+      if (name === 'viewof percentUsersBuyPack') {
+        return new Inspector(this.percentUsersBuyPackRef.current);
       }
       if (name === 'viewof userBuyPerYear') {
         return new Inspector(this.userBuyPerYearRef.current);
       }
       if (name === 'viewof dollarPriceStickers') {
         return new Inspector(this.dollarPriceStickersRef.current);
+      }
+      if (name === 'viewof netPresentUtility') {
+        return new Inspector(this.netPresentUtilityRef.current);
       }
       return null;
     });
@@ -43,15 +42,15 @@ class App extends Component {
 
   userChurnRateRef = React.createRef();
 
-  userbarRef = React.createRef();
-
   discountRateRef = React.createRef();
 
-  percentUsersBuysPackRef = React.createRef();
+  percentUsersBuyPackRef = React.createRef();
 
   userBuyPerYearRef = React.createRef();
 
   dollarPriceStickersRef = React.createRef();
+
+  netPresentUtilityRef = React.createRef();
 
   render() {
     return (
@@ -81,9 +80,11 @@ class App extends Component {
         <div ref={this.numberUserInputRef} />
         <div ref={this.userGrowthRateRef} />
         <div ref={this.userChurnRateRef} />
-        <div ref={this.userbarRef} className={style.chart} />
-        <h3>Conversion rate of users to ENS username</h3>
-
+        <div ref={this.discountRateRef} />
+        <div ref={this.percentUsersBuyPackRef} />
+        <div ref={this.userBuyPerYearRef} />
+        <div ref={this.dollarPriceStickersRef} />
+        <div ref={this.netPresentUtilityRef} />
         <h2>Example Scenario Analysis</h2>
         <p />
         <h2>Thoughts and Conclusions</h2>
