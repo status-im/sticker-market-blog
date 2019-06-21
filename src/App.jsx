@@ -90,8 +90,13 @@ class App extends Component {
           Two weeks ago, we introduced our Token Economic Research initiative
           and published an analysis of the crypto economic model behind ENS
           Registration. This episode in the series will break down the
-          tokenomics of the Sticker Market and how SNT is used within it.
-          Stickers are fun, visual, and shown to increase engagement levels,
+          tokenomics of the Sticker Market and how SNT is used within it. We
+          invite anyone to critique the model, ask questions, and join in on our
+          discussion{' '}
+          <a href="https://discuss.status.im/t/token-economics-sticker-market/1260">
+            here
+          </a>
+          . Stickers are fun, visual, and shown to increase engagement levels,
           particularly amongst millennials. The messaging app Line for instance
           derives about a quarter of its yearly revenues from sticker sales, or
           about $268m USD (Line Corporation IPO Filing).
@@ -488,13 +493,18 @@ class App extends Component {
         </p>
         <ul>
           <li>
+            <a href="https://discuss.status.im/t/token-economics-sticker-market/1260">
+              Discussion Forum posting
+            </a>
+          </li>
+          <li>
             <a href="https://observablehq.com/@bgits/status-sticker-market-utility-value-exploration?collection=@bgits/status">
-              Sticker Market
+              Detailed Sticker Market Token Model Workbook
             </a>
           </li>
           <li>
             <a href="https://observablehq.com/@bgits/status-cost-of-capital?collection=@bgits/status">
-              Status Cost of Capital
+              Status Cost of Capital Model Workbook
             </a>
           </li>
           <li>
