@@ -293,7 +293,7 @@ class App extends Component {
         <p>
           You will notice we saved <Latex>$$V$$</Latex> for last. It is often
           the most confusing to comprehend, and muddy in terms of its derivation
-          in cryptocurrencies. According to Burkiske&apos;s analysis (which we
+          in cryptocurrencies. According to Burniske&apos;s analysis (which we
           follow here), this is best described as &quot;show[ing] the number of
           times an asset changes hands in a given period of time.&quot; His
           example gives the following example with Bitcoin. Imagine bitcoin had
